@@ -1,4 +1,4 @@
-t=int(input())
-for i in range(t):
-    x,y=map(int,input().split())
-    print(x+y)
+x=int(input())
+for i in range (1,x+1):
+    a,b=map(int,input().split())
+    print(a+b)

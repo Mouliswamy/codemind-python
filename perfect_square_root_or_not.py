@@ -1,9 +1,7 @@
 x=int(input())
-i=0
-while i<=x:
-    i=i+1
+for i in range(x):
     if i*i==x:
         print(True)
         break
-else:
+else :
     print(False)

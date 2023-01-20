@@ -1,13 +1,13 @@
 n=int(input())
-t=n
-tem=n
-i=0
+b=n
 s=0
 a=len(str(n))
-while tem!=0:
-    r=tem%10
-    tem=tem//10
-    f=r**a
-    a-=1
-    s+=f
-print(s==t)
+while b>0:
+    r=b%10
+    d=r**a
+    a=a-1
+    s=s+d
+    b=b//10
+print(s==n)
+    
+    
